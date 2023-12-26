@@ -55,3 +55,54 @@ The effect of an SSL attack can range from eavesdropping on encrypted communicat
 ### Mitigation:
 
 Mitigate SSL attacks by keeping software and systems updated to patch known vulnerabilities. Employing strong encryption algorithms and ciphers, and regularly updating SSL/TLS configurations, helps enhance security. Additionally, using intrusion detection and prevention systems to monitor and block malicious SSL traffic can be effective. Always use reputable SSL certificates and ensure proper certificate management practices are in place. Regular security audits and penetration testing are also recommended.
+
+# Tasks
+1. On an Ubuntu system install Nginx 1.23.1 from a source file (Not using APT) and 
+create a small test infrastructure on your virtual environment to perform a load 
+balancing of a site example.com using Nginx. 
+Share the steps and screenshots of the configuration and the result identifying the load 
+has been distributed among backend servers. 
+
+```shell
+sudo apt-get update
+sudo apt-get install -y build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev openssl libssl-dev
+# Download Nginx source code
+wget http://nginx.org/download/nginx-1.23.1.tar.gz
+tar -zxvf nginx-1.23.1.tar.gz
+cd nginx-1.23.1
+
+# Configure and compile
+./configure
+make
+sudo make install
+#Nginx Configuration for Load Balancing
+
+#create a file named nginx.conf 
+#nginx.conf
+
+http {
+    upstream backend {
+        server backend1.example.com;
+        server backend2.example.com;
+        # Add more backend servers as needed
+    }
+
+    server {
+        listen 80;
+        server_name example.com;
+
+        location / {
+            proxy_pass http://backend;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+}
+
+# Now Run Nginx with the Custom Configuration
+sudo /usr/local/nginx/sbin/nginx -c mention_complete path/nginx.conf
+
+```
