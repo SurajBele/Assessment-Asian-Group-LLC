@@ -1,6 +1,7 @@
 # Assessment-Test-Asian-Group-LLC
 ## What is DDoS attacks?
 * A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.
+![Screenshot](Interal-How-Does-a-DDoS-Attack-Work-1.png)
 
 ## a. CC (Challenge Collapsar) Attack:
 ---------------------
