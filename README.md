@@ -96,7 +96,7 @@ pip install Flask
 ```shell
 
 server1.py:
-
+-------------------------
 from flask import Flask
 
 app = Flask(__name__)
