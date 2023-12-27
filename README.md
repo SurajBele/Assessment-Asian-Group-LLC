@@ -140,7 +140,7 @@ if __name__ == '__main__':
 ## Now, start these Flask servers:
 ```shell 
 
-python3 server1.    py &
+python3 server1.py &
 python3 server2.py &
 ```
 * This will start two Flask servers on ports 8081 and 8082.
