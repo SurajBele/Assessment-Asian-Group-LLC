@@ -81,7 +81,7 @@ sudo make install
 # check nginx installed version
 sudo /usr/local/nginx/sbin/nginx -v
 ```
-![Screenshot](Interal-How-Does-a-DDoS-Attack-Work-1.png)
+![Screenshot](C:\Users\DELL\Desktop\Assessment-Asian-Group-LLC\nginx version.jpg)
 -----------------------------
 2. Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
