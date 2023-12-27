@@ -85,7 +85,7 @@ sudo /usr/local/nginx/sbin/nginx -v
 * Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
 
-# Start two backend servers
+## Start two backend servers
 First, install Flask if you haven't already:
 ```shell
 sudo apt install python3-pip
