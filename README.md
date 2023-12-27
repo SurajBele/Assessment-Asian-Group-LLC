@@ -191,4 +191,4 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ![Screenshot](server2_request.jpg)
 
 * Here is the complete nginx proxy and loadbalancing done. 
-* If you see there servers getting  
+* If you see there servers getting down after the terminal going  
