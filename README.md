@@ -63,7 +63,7 @@ balancing of a site example.com using Nginx.
 Share the steps and screenshots of the configuration and the result identifying the load 
 has been distributed among backend servers. 
 
-*  
+* Requirement to perform this  
 
 ------------------------------------------------------------
 1. Download and extract Nginx source code
