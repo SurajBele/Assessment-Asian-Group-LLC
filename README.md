@@ -64,7 +64,8 @@ Share the steps and screenshots of the configuration and the result identifying 
 has been distributed among backend servers. 
 
 * Requirements to perform this task
-    1. nginx 
+    1. nginx 1.23.1 source package
+    2. 
 
 ------------------------------------------------------------
 1. Download and extract Nginx source code
