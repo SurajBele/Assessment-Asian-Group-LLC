@@ -57,14 +57,14 @@ The effect of an SSL attack can range from eavesdropping on encrypted communicat
 Mitigate SSL attacks by keeping software and systems updated to patch known vulnerabilities. Employing strong encryption algorithms and ciphers, and regularly updating SSL/TLS configurations, helps enhance security. Additionally, using intrusion detection and prevention systems to monitor and block malicious SSL traffic can be effective. Always use reputable SSL certificates and ensure proper certificate management practices are in place. Regular security audits and penetration testing are also recommended.
 
 # Tasks
-1. On an Ubuntu system install Nginx 1.23.1 from a source file (Not using APT) and 
+* On an Ubuntu system install Nginx 1.23.1 from a source file (Not using APT) and 
 create a small test infrastructure on your virtual environment to perform a load 
 balancing of a site example.com using Nginx. 
 Share the steps and screenshots of the configuration and the result identifying the load 
 has been distributed among backend servers. 
 
 ------------------------------------------------------------
-* Download and extract Nginx source code
+1 Download and extract Nginx source code
 ```shell
 sudo apt-get update
 sudo apt-get install -y build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev openssl libssl-dev
