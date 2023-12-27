@@ -127,6 +127,7 @@ if __name__ == '__main__':
 ```
 * Now, start these Flask servers:
 ```shell 
+servers.jpg
 python3 server1.py &
 python3 server2.py &
 ```
