@@ -116,8 +116,4 @@ http {
         }
     }
 }
-
-# Now Run Nginx with the Custom Configuration
-sudo /usr/local/nginx/sbin/nginx -c mention_complete path/nginx.conf
-
 ```
