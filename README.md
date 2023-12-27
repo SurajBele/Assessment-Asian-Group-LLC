@@ -191,4 +191,4 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ![Screenshot](server2_request.jpg)
 
 * Here is the complete nginx proxy and loadbalancing done. 
-* If you see there servers getting down after the terminal exited, then to make it available for long time we have to   
+* If you see there servers getting down after the terminal exited, then to make it available for long time we have to keep it active in background  
