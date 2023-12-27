@@ -202,3 +202,7 @@ nohup python3 server2.py > server2.log 2>&1 &
 ---------------------------------------------
 * Here is the complete nginx proxy and loadbalancing done. 
 ------------------------------------------------------------------------
+![Screenshot](server1_request.jpg)
+
+-------------------------------
+![Screenshot](server2_request.jpg)
