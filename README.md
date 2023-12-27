@@ -88,6 +88,7 @@ sudo make install
 sudo /usr/local/nginx/sbin/nginx -v
 ```
 ![Screenshot](nginx version.jpg)
+
 -----------------------------
 2. Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
@@ -133,6 +134,7 @@ if __name__ == '__main__':
 ```
 ![Screenshot](servers.jpg)
 
+----------------------------------
 3. Now, start these Flask servers:
 ```shell 
 
