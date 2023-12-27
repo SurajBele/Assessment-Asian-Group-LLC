@@ -86,8 +86,48 @@ sudo /usr/local/nginx/sbin/nginx -v
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
 ```shell
 # Start two backend servers
-python3 -m http.server 8081 &
-python3 -m http.server 8082 &
+First, install Flask if you haven't already:
+
+bash
+Copy code
+pip install Flask
+Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
+
+server1.py:
+
+python
+Copy code
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello from Server 1!'
+
+if __name__ == '__main__':
+    app.run(port=8081)
+server2.py:
+
+python
+Copy code
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello from Server 2!'
+
+if __name__ == '__main__':
+    app.run(port=8082)
+Now, start these Flask servers:
+
+bash
+Copy code
+python3 server1.py &
+python3 server2.py &
+This will start two Flask servers on ports 8081 and 8082.
 ```
 * Nginx Configuration for Load Balancing
 Create a new Nginx configuration file or edit the existing, e.g., /usr/local/nginx/conf/nginx.conf
