@@ -194,6 +194,7 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ```shell
 nohup python3 server2.py > server2.log 2>&1 &
 ```
+---------------------------------------
 ## Explanation:
 
 * nohup: This stands for "no hang up" and is used to run a command immune to hangups, with output to a non-tty.
@@ -201,3 +202,6 @@ nohup python3 server2.py > server2.log 2>&1 &
 * 2>&1: Redirects standard error to the same location as standard output.
 * &: Puts the command in the background.
 * This way, the Flask server will continue running in the background, and any output or error messages will be written to the server2.log file. You can check this log file to see the server's output and any error messages it produces.
+---------------------------------------------
+* Here is the complete nginx proxy and loadbalancing done. 
+------------------------------------------------------------------------
