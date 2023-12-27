@@ -95,7 +95,7 @@ pip install Flask
 * Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
 ```shell
 ----------------
-server1.py:
+vi server1.py:
 -------------------------
 from flask import Flask
 
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     app.run(port=8081)
 
 ------------------------    
-server2.py:
+vi server2.py:
 --------------------
 from flask import Flask
 
