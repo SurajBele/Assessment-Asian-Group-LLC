@@ -186,6 +186,6 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ![Screenshot](server1_request.jpg)
 
 -------------------------------
-![Screenshot](server1_request.jpg)
+![Screenshot](server2_request.jpg)
 
 * Here is the complete nginx proxy and loadbalancing done. 
