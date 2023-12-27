@@ -97,7 +97,7 @@ python3 -m http.server 8082 &
 http {
     upstream backend {
         server 127.0.0.1:8081;
-        server backend2.example.com;
+        server 127.0.0.1:8082;
         # Add more backend servers as needed
     }
 
