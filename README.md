@@ -90,7 +90,7 @@ python3 -m http.server 8081 &
 python3 -m http.server 8082 &
 ```
 * Nginx Configuration for Load Balancing
-Create a new Nginx configuration file, e.g., /usr/local/nginx/conf/nginx.conf
+Create a new Nginx configuration file or edit the existing, e.g., /usr/local/nginx/conf/nginx.conf
 ```shell 
 
 #create a file named nginx.conf 
