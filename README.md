@@ -63,7 +63,7 @@ balancing of a site example.com using Nginx.
 Share the steps and screenshots of the configuration and the result identifying the load 
 has been distributed among backend servers. 
 
-
+* Download and extract Nginx source code
 ```shell
 sudo apt-get update
 sudo apt-get install -y build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev openssl libssl-dev
