@@ -79,7 +79,8 @@ sudo make install
 
 # check nginx installed version
 sudo /usr/local/nginx/sbin/nginx -v
-`````` 
+```
+```shell 
 #Nginx Configuration for Load Balancing
 
 #create a file named nginx.conf 
