@@ -137,7 +137,7 @@ if __name__ == '__main__':
 ![Screenshot](servers.jpg)
 
 ----------------------------------
-3. Now, start these Flask servers:
+## Now, start these Flask servers:
 ```shell 
 
 python3 server1.py &
@@ -145,7 +145,7 @@ python3 server2.py &
 ```
 * This will start two Flask servers on ports 8081 and 8082.
 ----------------------------------------------------
-4. Nginx Configuration for Load Balancing
+## Nginx Configuration for Load Balancing
     * Create a new Nginx configuration file or edit the existing, e.g., /usr/local/nginx/conf/nginx.conf
 ```shell 
 
