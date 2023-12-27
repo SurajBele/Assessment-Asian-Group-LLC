@@ -93,7 +93,7 @@ pip install Flask
 ```
 
 * Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
-```shell```
+```shell
 server1.py:
 
 python
