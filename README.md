@@ -94,10 +94,9 @@ pip install Flask
 
 * Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
 ```shell
+
 server1.py:
 
-python
-Copy code
 from flask import Flask
 
 app = Flask(__name__)
