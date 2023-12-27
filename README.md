@@ -165,4 +165,4 @@ sudo /usr/local/nginx/sbin/nginx
 #if there is any modification in the file then 
 sudo /usr/local/nginx/sbin/nginx -s reload
 ```
-![Screenshot](servers.jpg)
+![Screenshot](nginx_configuration.jpg)
