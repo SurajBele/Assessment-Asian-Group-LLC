@@ -81,10 +81,8 @@ sudo make install
 sudo /usr/local/nginx/sbin/nginx -v
 ```
 ```shell 
-#Nginx Configuration for Load Balancing
 
 #create a file named nginx.conf 
-#nginx.conf
 
 http {
     upstream backend {
