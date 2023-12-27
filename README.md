@@ -65,7 +65,7 @@ has been distributed among backend servers.
 
 * Requirements to perform this task
     1. nginx 1.23.1 source package
-    2. 
+    2. python3
 
 ------------------------------------------------------------
 1. Download and extract Nginx source code
