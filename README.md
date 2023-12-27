@@ -70,7 +70,7 @@ has been distributed among backend servers.
     4. nginx loadbalancing.
 
 ------------------------------------------------------------
-1. Download and extract Nginx source code
+## Download and extract Nginx source code
 ```shell
 sudo apt-get update
 sudo apt-get install -y build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev openssl libssl-dev
