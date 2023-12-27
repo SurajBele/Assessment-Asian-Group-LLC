@@ -129,8 +129,10 @@ def hello():
 if __name__ == '__main__':
     app.run(port=8082)
 ---------------------------------------------
-![Screenshot](servers.jpg)
+
 ```
+![Screenshot](servers.jpg)
+
 3. Now, start these Flask servers:
 ```shell 
 
