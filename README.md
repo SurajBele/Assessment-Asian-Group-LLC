@@ -87,6 +87,8 @@ sudo make install
 # check nginx installed version
 sudo /usr/local/nginx/sbin/nginx -v
 ```
+--------------------------
+
 ![Screenshot](nginx version.jpg)
 
 -----------------------------
