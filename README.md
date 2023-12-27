@@ -118,4 +118,6 @@ http {
 }
 ```
 * Start Nginx
-``````
+```shell
+sudo /usr/local/nginx/sbin/nginx
+```
