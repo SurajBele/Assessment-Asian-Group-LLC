@@ -76,6 +76,8 @@ cd nginx-1.23.1
 ./configure
 make
 sudo make install
+
+
 #Nginx Configuration for Load Balancing
 
 #create a file named nginx.conf 
