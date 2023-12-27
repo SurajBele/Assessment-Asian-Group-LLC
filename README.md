@@ -82,7 +82,7 @@ sudo make install
 sudo /usr/local/nginx/sbin/nginx -v
 ```
 -----------------------------
-*  backend servers
+* Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
 
 * Nginx Configuration for Load Balancing
