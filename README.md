@@ -90,6 +90,8 @@ First, install Flask if you haven't already:
 ```shell
 sudo apt install python3-pip
 pip install Flask
+```
+
 Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
 
 server1.py:
