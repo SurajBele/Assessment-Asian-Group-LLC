@@ -168,5 +168,5 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ```
 -------------------------
 
-5.
+5. Verify load balancing
 
