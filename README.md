@@ -195,9 +195,10 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ```shell
 nohup python3 server2.py > server2.log 2>&1 &
 ```
-Explanation:
+## Explanation:
 
-nohup: This stands for "no hang up" and is used to run a command immune to hangups, with output to a non-tty.
+nohup:
+ This stands for "no hang up" and is used to run a command immune to hangups, with output to a non-tty.
 > server2.log: Redirects standard output to a file named server2.log.
 2>&1: Redirects standard error to the same location as standard output.
 &: Puts the command in the background.
