@@ -176,4 +176,4 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 -------------------------------
 ![Screenshot](server1 request.jpg)
 
-* Here is the complete nginx  
+* Here is the complete nginx proxy and loadbalancing  
