@@ -64,7 +64,7 @@ Share the steps and screenshots of the configuration and the result identifying 
 has been distributed among backend servers. 
 
 ------------------------------------------------------------
-1 Download and extract Nginx source code
+1. Download and extract Nginx source code
 ```shell
 sudo apt-get update
 sudo apt-get install -y build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev openssl libssl-dev
@@ -82,10 +82,10 @@ sudo make install
 sudo /usr/local/nginx/sbin/nginx -v
 ```
 -----------------------------
-* Backend servers
+2. Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
 
-## Start two backend servers
+* Start two backend servers
 First, install Flask if you haven't already:
 ```shell
 sudo apt install python3-pip
