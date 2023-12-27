@@ -92,7 +92,7 @@ sudo /usr/local/nginx/sbin/nginx -v
 ![Screenshot](nginx_version.jpg)
 
 -----------------------------
-2. Backend servers
+## Backend servers
 For demonstration purposes, let's assume you have two backend servers running on different ports. You can simulate this using simple Python HTTP servers:
 
 * Start two backend servers
