@@ -89,8 +89,7 @@ sudo /usr/local/nginx/sbin/nginx -v
 ```
 --------------------------
 
-![Screenshot](nginx
--version.jpg)
+![Screenshot](nginx_version.jpg)
 
 -----------------------------
 2. Backend servers
