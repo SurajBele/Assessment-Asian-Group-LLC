@@ -117,3 +117,5 @@ http {
     }
 }
 ```
+* Start Nginx
+``````
