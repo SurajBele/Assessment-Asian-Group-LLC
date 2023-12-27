@@ -88,8 +88,7 @@ For demonstration purposes, let's assume you have two backend servers running on
 # Start two backend servers
 First, install Flask if you haven't already:
 ```shell
-bash
-Copy code
+sudo apt install python3-pip
 pip install Flask
 Now, create two Python scripts, e.g., server1.py and server2.py, with the following content:
 
