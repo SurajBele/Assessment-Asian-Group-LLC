@@ -190,7 +190,6 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 -------------------------------
 ![Screenshot](server2_request.jpg)
 
-* Here is the complete nginx proxy and loadbalancing done. 
 * If you see there servers getting down after the terminal exited, then to make it available for long time we have to keep it active in background, for that use following command.
 ```shell
 nohup python3 server2.py > server2.log 2>&1 &
