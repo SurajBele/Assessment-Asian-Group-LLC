@@ -77,7 +77,7 @@ cd nginx-1.23.1
 make
 sudo make install
 
-# check nginx install
+# check nginx installed version
 sudo /usr/local/nginx/sbin/nginx -v 
 #Nginx Configuration for Load Balancing
 
