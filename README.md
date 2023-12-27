@@ -172,3 +172,6 @@ sudo /usr/local/nginx/sbin/nginx -s reload
     * Open a web browser and hit the domain, Refresh the page multiple times, and you should see the requests being distributed between the two backend servers.
 
 ![Screenshot](server1 request.jpg)
+
+-------------------------------
+![Screenshot](server1 request.jpg)
