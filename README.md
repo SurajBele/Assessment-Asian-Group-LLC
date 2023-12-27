@@ -108,10 +108,10 @@ def hello():
 
 if __name__ == '__main__':
     app.run(port=8081)
-server2.py:
 
-python
-Copy code
+------------------------    
+server2.py:
+--------------------
 from flask import Flask
 
 app = Flask(__name__)
@@ -122,10 +122,9 @@ def hello():
 
 if __name__ == '__main__':
     app.run(port=8082)
-Now, start these Flask servers:
-
-bash
-Copy code
+```
+* Now, start these Flask servers:
+```shell ```
 python3 server1.py &
 python3 server2.py &
 This will start two Flask servers on ports 8081 and 8082.
