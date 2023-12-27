@@ -185,10 +185,7 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 ## Verify load balancing
     * Open a web browser and hit the domain, Refresh the page multiple times, and you should see the requests being distributed between the two backend servers.
 
-![Screenshot](server1_request.jpg)
-
--------------------------------
-![Screenshot](server2_request.jpg)
+-----------------------------------------------
 
 * If you see there servers getting down after the terminal exited, then to make it available for long time we have to keep it active in background, for that use following command.
 ```shell
