@@ -183,7 +183,7 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 -------------------------
 
 ## Verify load balancing
-    * Open a web browser and hit the domain, Refresh the page multiple times, and you should see the requests being distributed between the two backend servers.
+ * Open a web browser and hit the domain, Refresh the page multiple times, and you should see the requests being distributed between the two backend servers.
 
 -----------------------------------------------
 
