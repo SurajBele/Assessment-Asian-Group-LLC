@@ -159,10 +159,11 @@ http {
     }
 }
 ```
+![Screenshot](nginx_configuration.jpg)
 * Start Nginx
 ```shell
 sudo /usr/local/nginx/sbin/nginx
 #if there is any modification in the file then 
 sudo /usr/local/nginx/sbin/nginx -s reload
 ```
-![Screenshot](nginx_configuration.jpg)
+
