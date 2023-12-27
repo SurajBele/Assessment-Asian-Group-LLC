@@ -159,5 +159,6 @@ http {
 * Start Nginx
 ```shell
 sudo /usr/local/nginx/sbin/nginx
-#if your are 
+#if there is any modification in the file then 
+
 ```
